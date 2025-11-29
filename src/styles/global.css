@@ -1,0 +1,152 @@
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ffb6e6, #ffd6f5);
+    min-height: 100vh;
+}
+
+/* ===== Center Layout Wrapper ===== */
+.center-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+/* ===== Welcome Screen ===== */
+.welcome-box {
+    background: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    max-width: 450px;
+    width: 100%;
+}
+
+.welcome-box h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.welcome-box p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.pink-btn {
+    padding: 14px 25px;
+    background: #ff4d9d;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.pink-btn:hover {
+    transform: scale(1.05);
+}
+
+/* ===== Location List ===== */
+.location-box {
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.location-box h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.location-box p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+/* BUTTON GROUP JARAK LEBAR */
+.location-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 35px; /* Jarak antar tombol diperlebar */
+    flex-wrap: wrap;
+}
+
+.location-btn {
+    background: #ff7ac4;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    font-size: 15px;
+    transition: .2s;
+}
+
+.location-btn:hover {
+    transform: scale(1.07);
+}
+
+/* ===== Gallery ===== */
+.gallery-box {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.back-btn {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #ff4d9d;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.media-item {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 480px) {
+    .welcome-box, .location-box, .gallery-box {
+        padding: 30px;
+    }
+
+    .location-buttons {
+        gap: 20px;
+    }
+
+    .location-btn {
+        width: 100%;
+    }
+}

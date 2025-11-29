@@ -1,5 +1,5 @@
 import Kangen1 from "../img/kangen1.JPG";
-import Kangen2 from "../img/kangen2.JPG";
+import Kangen2 from "../img/Kangen2.JPG";
 import PhotoBox from "../img/PhotoBox.JPG";
 import video1 from "../img/video1.mp4";
 import video2 from "../img/video2.MOV";

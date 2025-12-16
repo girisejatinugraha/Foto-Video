@@ -20,5 +20,10 @@ export const useLocations = () => {
             photos: [bakmie1, bakmie2],
             videos: [bakmie3, bakmie4]
         },
+        {
+            name: "Next?",
+            photos: ["/img/mali1.jpg", "/img/mali2.jpg"],
+            videos: []
+        },
     ];
 };

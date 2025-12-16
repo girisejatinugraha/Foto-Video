@@ -1,11 +1,19 @@
 {
+<<<<<<< HEAD
   "name": "galeri-giri-welly",
+=======
+  "name": "galeri",
+>>>>>>> 327e48cf201eaba474c143bd26ba385de1ef7837
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "build": "tsc -b && vite build",
+=======
+    "build": "vite build",
+>>>>>>> 327e48cf201eaba474c143bd26ba385de1ef7837
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -15,7 +23,10 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+<<<<<<< HEAD
     "@types/node": "^24.10.1",
+=======
+>>>>>>> 327e48cf201eaba474c143bd26ba385de1ef7837
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
@@ -23,8 +34,11 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+<<<<<<< HEAD
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
+=======
+>>>>>>> 327e48cf201eaba474c143bd26ba385de1ef7837
     "vite": "^7.2.4"
   }
 }
